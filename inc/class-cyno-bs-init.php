@@ -124,7 +124,7 @@ class Cyno_BS_Init {
                 'media'   => 'all',
             ),
             'cyno-bs-style' => array(
-                'src'     => get_stylesheet_uri(),
+                'src'     =>  CYNO_BS_ASSETS_URL . '/css/frontend.css',
                 'deps'    => array('bootstrap'),
                 'version' => CYNO_BS_VERSION,
                 'media'   => 'all',
